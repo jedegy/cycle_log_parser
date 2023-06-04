@@ -2,6 +2,8 @@
 name = "cycle_log_parser"
 version = "0.1.0"
 edition = "2021"
+description = "The Cycle Frontier UI Helper"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
