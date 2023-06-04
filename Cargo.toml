@@ -1,0 +1,23 @@
+[package]
+name = "cycle_log_parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cpal = { version = "0.15.2" }
+egui = { version = "0.19.0" }
+egui_winit_platform = { version = "0.16" }
+egui_wgpu_backend = { version = "0.19" }
+env_logger = { version = "0.9.1" }
+chrono = { version = "0.4" }
+lazy_static = { version = "1.4.0" }
+log = { version = "0.4.17" }
+pollster = { version = "0.2" }
+rand = { version = "0.8.5" }
+regex = { version = "1.5" }
+tokio = { version = "1.0", features = ["full"] }
+winapi = { version = "0.3.9" }
+winit = { version = "0.27.3", features = ["x11"]}
+wgpu = { version =  "0.13" }
